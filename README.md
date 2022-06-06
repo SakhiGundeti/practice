@@ -6,3 +6,4 @@ First change
 Hope this is in the next line
 
 remote change
+Merging!
