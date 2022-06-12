@@ -4,3 +4,5 @@ def lines(line):
 print("New function!")
 news = input('Enter a string, please')
 doing = lines(news)
+port = list('fdj', 'red', 'dsje')
+print(port.sorted())
