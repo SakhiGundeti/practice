@@ -1,9 +1,12 @@
-n= 10
-sum = 0
-def sub():
-    while n>0:
-        sum  = sum + n
-        n = n - 1
-    print(n)
-    print(sum)
-print("Summation is",sum)
+count = dict()
+files = open('Python_prac')
+for g in files:
+    sent = g
+    word = sent.split()
+    for j in word:
+        count[j] = count.get(j,0) + 1
+print(count)
+types = list()
+for k,v in count.items():
+    news = (v,k)
+    types.append(news)
