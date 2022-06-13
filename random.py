@@ -16,6 +16,4 @@ types = list()
 for k,v in count.items():
     news = (v,k)
     types.append(news)
-port = ['fdj', 'red', 'dsje']
-port.sort()
-print(port)
+#removal of recent changes
