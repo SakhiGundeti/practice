@@ -16,8 +16,4 @@ types = list()
 for k,v in count.items():
     news = (v,k)
     types.append(news)
-<<<<<<< HEAD
-#removal of recent changes
-=======
 #Added a new comment
->>>>>>> ac4d650 (Change in times)
