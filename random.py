@@ -16,4 +16,6 @@ types = list()
 for k,v in count.items():
     news = (v,k)
     types.append(news)
-#Added a new comment
+def next(word):
+    print(word.lower())
+#Made a couple of changes
