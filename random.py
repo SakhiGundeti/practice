@@ -18,4 +18,6 @@ for k,v in count.items():
     types.append(news)"""
 def next(word):
     print(word.lower())
+trial = input("Enter stuff")
+print("Here it is", next(trial))
 #Made a couple of changes
